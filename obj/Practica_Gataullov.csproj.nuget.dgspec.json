@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\student\\Desktop\\Practica_Gataullov\\Practica_Gataullov.csproj": {}
+    "E:\\Практика\\Литвинов\\Practica_Gataullov\\Practica_Gataullov.csproj": {}
   },
   "projects": {
-    "C:\\Users\\student\\Desktop\\Practica_Gataullov\\Practica_Gataullov.csproj": {
+    "E:\\Практика\\Литвинов\\Practica_Gataullov\\Practica_Gataullov.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\student\\Desktop\\Practica_Gataullov\\Practica_Gataullov.csproj",
+        "projectUniqueName": "E:\\Практика\\Литвинов\\Practica_Gataullov\\Practica_Gataullov.csproj",
         "projectName": "Practica_Gataullov",
-        "projectPath": "C:\\Users\\student\\Desktop\\Practica_Gataullov\\Practica_Gataullov.csproj",
+        "projectPath": "E:\\Практика\\Литвинов\\Practica_Gataullov\\Practica_Gataullov.csproj",
         "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\student\\Desktop\\Practica_Gataullov\\obj\\",
+        "outputPath": "E:\\Практика\\Литвинов\\Practica_Gataullov\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,22 @@
       "frameworks": {
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.12, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

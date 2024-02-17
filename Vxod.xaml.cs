@@ -23,5 +23,18 @@ namespace Practica_Gataullov
         {
             InitializeComponent();
         }
+
+        private void Regvx_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            MainWindow registration = new MainWindow();
+            registration.Show();
+
+        }
+
+        private void Vx_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
     }
 }

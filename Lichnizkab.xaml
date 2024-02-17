@@ -5,8 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Practica_Gataullov"
         mc:Ignorable="d"
-        Title="Lichnizkab" Height="450" Width="800">
+        Title="Lichnizkab" Height="450" Width="800" FontSize="20" Background="#E4B488">
     <Canvas>
-        
+        <Canvas HorizontalAlignment="Left" Height="450" Width="150"/>
+        <TextBlock Text="Категории" HorizontalAlignment="Left" Canvas.Left="17" VerticalAlignment="Center"/>
+        <Button x:Name="Suvenirs" Content="Сувениры" Canvas.Left="16" Canvas.Top="38" Background="#E4B488"/>
+        <Button x:Name="Podarki" Content="Подарки" Canvas.Left="22" Canvas.Top="84" Background="#E4B488"/>
+        <Button x:Name="vixod" Content="Выйти из аккаунта" Canvas.Left="610" Canvas.Top="388" Background="#E4B488" Click="vixod_Click"/>
+        <Canvas HorizontalAlignment="Center" Height="408" Width="280" Canvas.Left="247" VerticalAlignment="Top">
+
+
+
+        </Canvas>
+
+
+
     </Canvas>
 </Window>

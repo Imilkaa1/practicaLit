@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Practica_Gataullov"
         mc:Ignorable="d"
-           Title="MainWindow" Height="450" Width="800" FontSize="20" Background="#E4B488">
+           Title="MainWindow" Height="460" Width="800" FontSize="20" Background="#E4B488">
     <StackPanel HorizontalAlignment="Center">
         <TextBlock Text="Вход" FontSize="25" FontFamily="Segoe UI Historic" Width="59"/>
         <TextBlock Text="Login" FontFamily="Segoe UI Historic" Margin="-5,110,0,0" Width="59"/>
@@ -14,11 +14,11 @@
             <TextBox x:Name="loginvx" Width="150" Height="25" Margin="-5,5,0,0"/>
             <TextBlock Text="Password" FontFamily="Segoe UI Historic" Margin="-5,5,0,0"  Width="88"/>
             <TextBox x:Name="passwordvx" Width="150" Height="25" Margin="-5,5,0,0"/>
-            <Button x:Name="Vx" Content="Войти" Background="White" Margin="-5,20,0,0" Width="177"/>
+            <Button x:Name="Vx" Content="Войти" Background="White" Margin="-5,20,0,0" Width="177" Click="Vx_Click"/>
         </StackPanel>
         <StackPanel Margin="490,65,0,0" HorizontalAlignment="Left" Orientation="Vertical" Width="99" Height="54">
             <TextBlock Text="Нет аккаунта?" FontSize="15" Width="119"/>
-            <Button x:Name="Regvx" Content="Sign in" Width="99" Height="30" Margin="0,5,0,0" Background="White"/>
+            <Button x:Name="Regvx" Content="Sign in" Width="99" Height="30" Margin="0,5,0,0" Background="White" Click="Regvx_Click"/>
         </StackPanel>
 
     </StackPanel>

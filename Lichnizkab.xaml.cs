@@ -23,5 +23,12 @@ namespace Practica_Gataullov
         {
             InitializeComponent();
         }
+
+        private void vixod_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            Lichnizkab Vixod = new Lichnizkab();
+            Vixod.Show();
+        }
     }
 }

@@ -24,5 +24,27 @@ namespace Practica_Gataullov
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            Vxod registration = new Vxod();
+            registration.Show();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            var mail = Login.Text;
+            var login = login.Text;
+            Password.Text = Passwordvx.Password.ToString();
+            var password = Password.Text;
+            var context = new AppDbContext();
+            var LogEnter = context.Users.SingleOrDefault(x => x.Login == login && x.Password == password);
+            var MailEnter = context.Users.SingleOrDefault(x => x.Email == mail && x.Password == password);
+            if (login != "Введите логин или почту" && password != "")
+            {
+
+            }
+        }
     }
 }

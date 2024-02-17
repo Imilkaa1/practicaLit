@@ -10,9 +10,6 @@
     <Compile Update="Lichnizkab.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="resistr.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="Vxod.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -22,9 +19,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="resistr.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Vxod.xaml">

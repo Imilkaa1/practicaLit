@@ -53,7 +53,7 @@ namespace Practica_Gataullov {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Practica_Gataullov;component/resistr.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Practica_Gataullov;V1.0.0.0;component/resistr.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\resistr.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

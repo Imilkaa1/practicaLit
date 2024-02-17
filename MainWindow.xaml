@@ -5,20 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Practica_Gataullov"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" FontSize="20" Background="#E4B488">
+        Title="MainWindow" Height="460" Width="800" FontSize="20" Background="#E4B488">
     <StackPanel HorizontalAlignment="Center">
         <TextBlock Text="Registration" FontSize="25" FontFamily="Segoe UI Historic" Width="145"/>
         <TextBlock Text="Login" FontFamily="Segoe UI Historic" Margin="-5,130,0,0" Width="59"/>
         
         <StackPanel Orientation="Vertical">
-            <TextBox Width="150" Height="25" Margin="-5,5,0,0"/>
+            <TextBox x:Name="Login" Width="150" Height="25" Margin="-5,5,0,0"/>
             <TextBlock Text="Password" FontFamily="Segoe UI Historic" Margin="-5,5,0,0"  Width="88"/>
-            <TextBox Width="150" Height="25" Margin="-5,5,0,0"/>
-            <Button Content="Registration" FontFamily="Segoe UI Historic" Background="White" Margin="-5,20,0,0" Width="200"/>
+            <TextBox x:Name="Password" Width="150" Height="25" Margin="-5,5,0,0"/>
+            <Button Content="Registration" FontFamily="Segoe UI Historic" Background="White" Margin="-5,20,0,0" Width="200" Click="Button_Click_1"/>
         </StackPanel>
         <StackPanel Margin="490,50,0,0" HorizontalAlignment="Left" Orientation="Vertical">
             <TextBlock Text="Есть аккаунт?" FontFamily="Segoe UI Historic" FontSize="15"/>
-            <Button Content="Sign in" Margin="0,5,0,0" FontFamily="Segoe UI Historic" Background="White" FontSize="15"/>
+            <Button Content="Sign in" Margin="0,5,0,0" FontFamily="Segoe UI Historic" Background="White" FontSize="15" Click="Button_Click"/>
         </StackPanel>
 
     </StackPanel>
